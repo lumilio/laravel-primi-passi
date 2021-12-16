@@ -7,7 +7,6 @@
         <title>Laravel</title>
 
         <!-- Fonts -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
 
         <!-- Styles -->
@@ -65,15 +64,16 @@
         </style>
     </head>
     <body>
-        <div class="container-fluid d-flex flex-column align-items-center">
-            <div class="container d-flex justify-content-center">
-                <a class='mx-3' href="{{route('route_about')}}">ABOUT</a>
-                <a class='mx-3' href="{{route('route_people')}}">PEOPLE</a>
-                <a class='mx-3' href="{{route('route_store')}}">STORE</a>
-                <a class='mx-3' href="{{route('route_contacts')}}">CONTACTS</a>
-                <a class='mx-3' href="{{route('route_social')}}">SOCIAL</a>  
+        <div class="flex-center position-ref full-height">
+
+
+            <div class="content">
+                <div class="title m-b-md">
+                    Contacts
+                </div>
+
+
             </div>
-            <h3 class='my-5'>Home page</h3>
         </div>
     </body>
 </html>
