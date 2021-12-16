@@ -69,7 +69,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Home
+                    Hello World Page
                 </div>
 
 
