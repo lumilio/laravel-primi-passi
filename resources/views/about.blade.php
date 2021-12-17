@@ -25,6 +25,14 @@
     <body>
         <div class="container-fluid d-flex flex-column align-items-center">
             <h3 class='my-5'>About</h3>
+            @forelse($options as $option)
+                <span>{{$option}}</span>
+            @if(!$loop->last)
+            ,
+            @endif
+            @empty
+                <p>not item found</p>
+            @endforelse
         </div>
     </body>
 </html>

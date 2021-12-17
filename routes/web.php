@@ -20,7 +20,12 @@ Route::get('/', function () {
 })->name('route_home');
 
 Route::get('/about', function () {
-    return view('about');
+    $data = [
+        "options"=>[
+            'chi siamo','cosa facciamo','perchè lo facciamo'
+        ]
+    ];
+    return view('about',$data);
 })->name('route_about');
 
 Route::get('/people', function () {
